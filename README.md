@@ -1,11 +1,11 @@
 para ejecutar el proyecto: 
 
--descargar el repositorio
--ejecutar el comando composer i
--ejecutar el comando php artisan key:generate
+- descargar el repositorio
+- ejecutar el comando composer i
+- ejecutar el comando php artisan key:generate
 - configurar la BD mysql nuestro_sabor, con usuario y contraseña en local: localhost, root, ""
--ejecutar el siguiente comando php artisan migrate]:fresh --seed
--por último correr el proyecto en local
+- ejecutar el siguiente comando php artisan migrate]:fresh --seed
+- por último correr el proyecto en local
 
 
 
