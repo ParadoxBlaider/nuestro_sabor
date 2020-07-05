@@ -16,7 +16,7 @@
             <tbody>
             @foreach( $arrayReservaciones as $key => $restaurante )
                 <tr>
-                    <td>{{$restaurante->restaurant_id}}</td>
+                    <td>{{$restaurante->restaurant->name}}</td>
                     <td >{{$restaurante->table}}</td>
                     <td>{{$restaurante->date_stockpile}}</td>
                 </tr>
