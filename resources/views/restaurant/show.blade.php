@@ -6,7 +6,7 @@
 			<img style="max-width: 100%;" src="{{ $restaurante->url_photo }}" alt="" height="300px" srcset="">
 		</div>
 		<div class="col-sm-8">
-			<h1>{{$restaurante->nombre}}</h1>
+			<h1>{{$restaurante->name}}</h1>
 			<h5>Dirección: {{$restaurante->address}}</h3>
 			<h5>Ciudad{{$restaurante->city}}</h3><br/>
 
@@ -26,7 +26,7 @@
 			</p><br/>
 
 			@if($restaurante->number_stockpiles >= 0 && $restaurante->number_stockpiles < 15)
-				<a href="{{ url('/stockpiles/create/'. $restaurante->id) }}">
+				<a style="text-decoration: none!important;" href="{{ url('/stockpiles/create/'. $restaurante->id) }}">
 					<button type="submit" class="btn btn-success" style="display:inline">
 						Reservar
 					</button>
