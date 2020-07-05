@@ -2,6 +2,7 @@ para ejecutar el proyecto:
 
 - descargar el repositorio
 - ejecutar el comando: composer i
+- cambiar el archivo .env.example con el siguiente comando : cp .env.example .env
 - ejecutar el comando: php artisan key:generate
 - configurar la BD mysql nuestro_sabor, con usuario y contraseña en local: localhost, root, ""
 - ejecutar el siguiente comando: php artisan migrate]:fresh --seed
